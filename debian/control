@@ -1,0 +1,13 @@
+Source: libpaho-mqtt
+Section: libs
+Priority: optional
+Maintainer: Ethan Trevor <ethan@nandlab.com>
+Build-Depends: debhelper-compat (= 12), cmake (>= 2.8.12)
+Standards-Version: 4.4.1
+Vcs-Browser: https://github.com/eclipse/paho.mqtt.c
+Vcs-Git: https://github.com/eclipse/paho.mqtt.c.git
+
+Package: libpaho-mqtt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Eclipse Paho C Client Library for the MQTT Protocol
