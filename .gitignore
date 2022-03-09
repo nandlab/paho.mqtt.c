@@ -31,3 +31,5 @@ debian/tmp/
 obj-*/
 *.user
 .pc
+
+libpaho-mqtt
