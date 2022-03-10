@@ -32,4 +32,6 @@ obj-*/
 *.user
 .pc
 
-libpaho-mqtt
+libpaho-mqtt1
+debian/libpaho-mqtt1-dev/
+debian/libpaho-mqtt1/
