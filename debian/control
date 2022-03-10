@@ -10,28 +10,31 @@ Vcs-Git: https://github.com/eclipse/paho.mqtt.c.git
 Package: libpaho-mqtt-c1-dev
 Section: libdevel
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libpaho-mqtt-c1 (= ${binary:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpaho-mqtt3a1 (= ${binary:Version}), libpaho-mqtt3c1 (= ${binary:Version}), libpaho-mqtt3as1 (= ${binary:Version}), libpaho-mqtt3cs1 (= ${binary:Version})
 Description: Eclipse Paho MQTT C Client Library - development files
  Development package of the Eclipse Paho MQTT C client library.
- Includes the C headers.
+ Includes the C headers and CMake files.
 
-Package: libpaho-mqtt-c1
+Package: libpaho-mqtt3a1
 Section: libs
-Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Eclipse Paho MQTT C Client Library - shared libraries
- Shared libraries of the Eclipse Paho MQTT C client library.
+Description: Eclipse Paho MQTT C Client Library - async shared library
+ Asynchronous client shared library from the Eclipse Paho MQTT C Client Library.
 
-Package: libpaho-mqtt-c1-ssl-dev
-Section: libdevel
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libpaho-mqtt-c1-dev (= ${binary:Version}), libpaho-mqtt-c1-ssl
-Description: Eclipse Paho MQTT C Client Library with SSL - development files
- Development package of the Eclipse Paho MQTT C client library with SSL support.
-
-Package: libpaho-mqtt-c1-ssl
+Package: libpaho-mqtt3c1
 Section: libs
-Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Eclipse Paho MQTT C Client Library with SSL - shared libraries
- Shared libraries of the Eclipse Paho MQTT C client library with SSL support.
+Description: Eclipse Paho MQTT C Client Library - classic shared library
+ Classic client shared library from the Eclipse Paho MQTT C Client Library.
+
+Package: libpaho-mqtt3as1
+Section: libs
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Eclipse Paho MQTT C Client Library - async ssl shared library
+ Asynchronous SSL client shared library from the Eclipse Paho MQTT C Client Library.
+
+Package: libpaho-mqtt3cs1
+Section: libs
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Eclipse Paho MQTT C Client Library - classic ssl shared library
+ Classic SSL client shared library from the Eclipse Paho MQTT C Client Library.

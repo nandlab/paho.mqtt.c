@@ -9,4 +9,6 @@ usr/lib/*/cmake/eclipse-paho-mqtt-c/eclipse-paho-mqtt-cConfig-none.cmake
 usr/lib/*/cmake/eclipse-paho-mqtt-c/eclipse-paho-mqtt-cConfig.cmake
 usr/lib/*/cmake/eclipse-paho-mqtt-c/eclipse-paho-mqtt-cConfigVersion.cmake
 usr/lib/*/libpaho-mqtt3a.so
+usr/lib/*/libpaho-mqtt3as.so
 usr/lib/*/libpaho-mqtt3c.so
+usr/lib/*/libpaho-mqtt3cs.so
