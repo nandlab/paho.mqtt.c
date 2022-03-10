@@ -8,3 +8,5 @@ usr/include/MQTTSubscribeOpts.h
 usr/lib/*/cmake/eclipse-paho-mqtt-c/eclipse-paho-mqtt-cConfig-none.cmake
 usr/lib/*/cmake/eclipse-paho-mqtt-c/eclipse-paho-mqtt-cConfig.cmake
 usr/lib/*/cmake/eclipse-paho-mqtt-c/eclipse-paho-mqtt-cConfigVersion.cmake
+usr/lib/*/libpaho-mqtt3a.so
+usr/lib/*/libpaho-mqtt3c.so
