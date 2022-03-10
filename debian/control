@@ -17,24 +17,28 @@ Description: Eclipse Paho MQTT C Client Library - development files
 
 Package: libpaho-mqtt3a1
 Section: libs
+Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Eclipse Paho MQTT C Client Library - async shared library
  Asynchronous client shared library from the Eclipse Paho MQTT C Client Library.
 
 Package: libpaho-mqtt3c1
 Section: libs
+Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Eclipse Paho MQTT C Client Library - classic shared library
  Classic client shared library from the Eclipse Paho MQTT C Client Library.
 
 Package: libpaho-mqtt3as1
 Section: libs
+Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Eclipse Paho MQTT C Client Library - async ssl shared library
  Asynchronous SSL client shared library from the Eclipse Paho MQTT C Client Library.
 
 Package: libpaho-mqtt3cs1
 Section: libs
+Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Eclipse Paho MQTT C Client Library - classic ssl shared library
  Classic SSL client shared library from the Eclipse Paho MQTT C Client Library.
