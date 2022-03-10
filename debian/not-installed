@@ -1,2 +1,5 @@
 usr/share/doc/*/*
 usr/share/doc/*/samples/*
+usr/bin/MQTTVersion
+usr/lib/*/libpaho-mqtt3a.so
+usr/lib/*/libpaho-mqtt3c.so
