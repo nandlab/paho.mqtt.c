@@ -1,5 +1,5 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: Eclipse Paho MQTT C client library
+Upstream-Name: Eclipse Paho MQTT C Client Library
 Source: https://github.com/eclipse/paho.mqtt.c.git
 
 Files: *
